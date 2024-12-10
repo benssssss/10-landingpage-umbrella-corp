@@ -1,0 +1,60 @@
+.commentaries-container {
+    background-color: var(--dark-color);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.4rem;
+    gap: .6rem;
+}
+
+.icon {
+    align-self: center;
+    height: 40px;
+    width: 40px;
+}
+
+.icon img {
+    height: 40px;
+}
+
+.personal-information {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 1rem;
+    height: 40px;
+}
+
+.personal-text,
+.comment-information {
+    text-align: start;
+}
+
+.personal-text {
+    height: 40px;
+}
+
+.personal-name,
+.alias {
+    height: 50%;
+}
+
+.personal-name {
+    font-size: 1rem;
+}
+
+.alias {
+    font-size: .8rem;
+    font-weight: 500;
+    color: var(--contrast-color);
+}
+
+.comment-information {
+    font-size: .7rem;
+}
+
+.commentaries {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}

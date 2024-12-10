@@ -1,7 +1,10 @@
 .header {
     justify-content: center;
-    padding: 1rem .8rem;
-    background-color: var(--soft-dark-color);
+    background-color: var(--dark-color);
+    position: fixed;
+    width: 320px;
+    padding: .7rem;
+    top: 0;
 }
 
 .header .menu {

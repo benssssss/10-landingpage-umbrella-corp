@@ -1,0 +1,13 @@
+.social-text-information {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#social .text-rate .social-text-information .subtitle {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-weight: 600;
+}

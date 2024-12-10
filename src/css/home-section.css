@@ -1,9 +1,10 @@
 .main {
     text-align: center;
+    margin-top: 47px;
 }
 
 #home {
-    height: 750px;
+    height: 800px;
 }
 
 #home .home-text-section .texts .title {

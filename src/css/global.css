@@ -29,9 +29,12 @@ img {
     height: 40px;
 }
 
-.header,
-.main,
-footer {
+.main-container {
     width: 320px;
+}
+
+#home,
+#servicos,
+#social {
     padding: 1.5rem;
 }
