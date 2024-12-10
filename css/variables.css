@@ -1,0 +1,9 @@
+:root {
+    --main-font: "Poppins";
+    --comments-font: "Roboto Condensed";
+
+    --light-color: #ECE1EF;
+    --contrast-color: #A56CFB;
+    --dark-color: #11091A;
+    --soft-dark-color: #210F3C;
+}
