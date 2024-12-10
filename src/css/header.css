@@ -1,8 +1,6 @@
 .header {
     justify-content: center;
     background-color: var(--dark-color);
-    position: fixed;
-    width: 320px;
     padding: .7rem;
     top: 0;
 }

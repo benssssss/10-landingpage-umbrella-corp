@@ -4,7 +4,15 @@
 }
 
 #home {
-    height: 800px;
+    display: flex;
+    height: 750px;
+    align-items: center;
+}
+
+.home-text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
 }
 
 #home .home-text-section .texts .title {
@@ -28,7 +36,6 @@
 }
 
 #home .home-text-section .texts {
-    height: 500px;
     flex-direction: column;
     justify-content: center;
 }
@@ -62,3 +69,18 @@
     justify-content: space-between;
     height: 130px;
 }
+
+@media (min-width: 350px){
+    #home .home-text-section .texts .description {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+    #home .home-text-section .texts .title {
+        font-size: 2.4rem;
+    }
+
+    #home .home-text-section .texts .subtitle {
+        font-size: 1.5em;
+    }
+} 

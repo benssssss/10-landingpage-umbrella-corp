@@ -1,0 +1,32 @@
+.rate-container {
+    background-color: var(--soft-dark-color);
+    display: flex;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+    align-items: baseline;
+    gap: .5rem;
+}
+
+.rate-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.rate-container img {
+    height: 13px;
+}
+
+.rate-text {
+    font-size: .8rem;
+}
+
+@media (min-width: 350px) {
+    .rate-container img {
+        height: 15px;
+    }
+
+    .rate-text {
+        font-size: .9rem;
+    }
+}

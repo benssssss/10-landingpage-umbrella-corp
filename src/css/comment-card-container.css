@@ -45,16 +45,28 @@
 
 .alias {
     font-size: .8rem;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--contrast-color);
 }
 
 .comment-information {
-    font-size: .7rem;
+    font-size: .8rem;
+    width: 260px;
 }
 
 .commentaries {
     display: flex;
     flex-direction: column;
     gap: 1.4rem;
+}
+
+@media (min-width: 350px) {
+    .personal-name {
+        font-size: 1.2rem;
+    }
+
+    .comment-information {
+        font-size: .9rem;
+        width: 260px;
+    }
 }

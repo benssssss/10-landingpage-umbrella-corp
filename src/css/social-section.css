@@ -1,3 +1,9 @@
+#social {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
 .social-text-information {
     height: 320px;
     display: flex;
@@ -10,4 +16,18 @@
     font-size: 1.8rem;
     line-height: 2rem;
     font-weight: 600;
+}
+
+@media (min-width: 350px) {
+    .social-text-information {
+        height: 380px;
+    }
+    
+    #social .text-rate .social-text-information .subtitle {
+        font-size: 2.3rem;
+    }
+
+    #social .text-rate .social-text-information .description {
+        font-size: 1.3rem;
+    }
 }
