@@ -1,0 +1,38 @@
+* {
+    font-family: var(--main-font);
+    color: var(--light-color);
+}
+
+html {
+    font-size: 62, 5%;
+}
+
+body {
+    background: url('../images/background.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+span {
+    color: var(--contrast-color);
+}
+
+.display-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+img {
+    height: 40px;
+}
+
+.header,
+.main,
+footer {
+    width: 320px;
+    padding: 1.5rem;
+}
+
