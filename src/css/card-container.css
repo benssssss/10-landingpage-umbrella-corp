@@ -1,0 +1,31 @@
+.service-card-section {
+    margin-top: 2rem;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.card-container {
+    background-color: var(--dark-color);
+    padding: 1.2rem;
+    border-radius: 1rem;
+}
+
+.card-text-information {
+    flex-direction: column;
+    text-align: start;
+}
+
+.card-container .card-title {
+    font-size: 1.1rem;
+    color: var(--contrast-color);
+    font-weight: 600;
+}
+
+.card-description {
+    font-size: .7rem;
+}
+
+.card-icon {
+    display: flex;
+    justify-content: end;
+}

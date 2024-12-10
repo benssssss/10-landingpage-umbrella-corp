@@ -1,5 +1,5 @@
 .social-buttons {
-    flex-direction: row-reverse;
+    justify-content: center;
     height: 50px;
     gap: .5rem;
 }

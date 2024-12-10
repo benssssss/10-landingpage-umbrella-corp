@@ -1,0 +1,13 @@
+#servicos {
+    margin-top: 1.5rem;
+    height: 1050px;
+}
+
+#servicos .service-text-section .subtitle {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#servicos .service-text-section .description {
+    margin-top: .7rem;
+}
