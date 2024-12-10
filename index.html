@@ -9,33 +9,24 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/hamburguer-style.css">
-    
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+
 </head>
 
 <body>
-
     <div class="main-container">
-        <header>
+        <header class="header display-flex">
+            <div class="logo">
+                <img src="src/images/logotipo.png" alt="Logotipo da Umbrella">
+            </div>
+
             <div class="menu">
-                <div class="logo">
-                    <figure><img src="src/images/logotipo.png" alt="Logotipo da Umbrella"></figure>
-                </div>
-                <div class="menu-items">
-                    <nav>
-                        <input type="checkbox" id="menu-hamburguer">
-                        <label for="menu-hamburguer">
-                            <div class="menu">
-                                <span class="hamburguer"></span>
-                            </div>
-                        </label>
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#servicos">Serviços</a></li>
-                            <li><a href="#social">Social</a></li>
-                        </ul>
-                    </nav>
-                </div>
+                <ul class="display-flex">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#social">Social</a></li>
+                </ul>
             </div>
         </header>
 
