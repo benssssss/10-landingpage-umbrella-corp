@@ -27,3 +27,26 @@
         font-size: 1.4rem;
     }
 }
+
+@media (min-width: 920px) {
+
+    #servicos .service-text-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #servicos .service-text-section .subtitle,
+    #servicos .service-text-section .description {
+        width: 500px;
+    }
+
+    #servicos .service-text-section .subtitle {
+        font-size: 2rem;
+
+    }
+
+    #servicos .service-text-section .description {
+        font-size: 1.6rem;
+    }
+}

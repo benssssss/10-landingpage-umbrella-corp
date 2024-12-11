@@ -25,6 +25,7 @@
     .rate-container img {
         height: 15px;
     }
+
     .rate-text {
         font-size: .9rem;
     }
@@ -41,5 +42,24 @@
 
     .rate-container {
         gap: 1rem;
+    }
+}
+
+@media (min-width: 920px) {
+    .rate-container img {
+        height: 25px;
+    }
+
+    .rate-text {
+        font-size: 1.5rem;
+    }
+
+    .rate-container {
+        gap: 1rem;
+        width: 500px;
+    }
+
+    .rate-section {
+        align-items: center;
     }
 }

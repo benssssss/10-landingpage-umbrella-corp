@@ -112,10 +112,6 @@
 
 @media (min-width: 650px) {
 
-    /* #home .home-text-section .texts {
-        padding: 1rem 2.5rem;
-    } */
-
     #home .home-text-section .texts .title {
         font-size: 4rem;
         line-height: 3.7rem;

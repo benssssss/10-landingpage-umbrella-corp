@@ -51,9 +51,19 @@ footer,
 
 @media (min-width: 650px) {
 
+    .main-container {
+        width: 650px;
+    }
+
     #home,
     #servicos,
     #social {
         padding: 3rem;
+    }
+}
+
+@media (min-width: 920px) {
+    .main-container {
+        width: 920px;
     }
 }
