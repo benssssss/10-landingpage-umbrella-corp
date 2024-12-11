@@ -7,12 +7,23 @@
     margin-top: .7rem;
 }
 
-@media (min-width: 350px){
+@media (min-width: 350px) {
     #servicos .service-text-section .subtitle {
         font-size: 1.5rem;
     }
 
     #servicos .service-text-section .description {
         font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 450px) {
+    #servicos .service-text-section .subtitle {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    #servicos .service-text-section .description {
+        font-size: 1.4rem;
     }
 }

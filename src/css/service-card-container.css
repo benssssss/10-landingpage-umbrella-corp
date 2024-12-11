@@ -50,3 +50,39 @@
         height: 60px;
     }
 }
+
+@media (min-width: 450px) {
+
+    .geral-card {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-container {
+        width: 385px;
+        height: 270px;
+        padding: 2rem;
+    }
+
+    .card-container .card-title {
+        font-size: 1.6rem;
+    }
+
+    .card-description {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .card-icon img {
+        height: 60px;
+    }
+}
+
+@media (min-width: 920px) {
+    .service-card-section {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}

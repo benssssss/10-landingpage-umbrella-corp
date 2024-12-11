@@ -34,7 +34,6 @@
     height: 40px;
     display: flex;
     flex-direction: column;
-    gap: .3rem;
 }
 
 .personal-name,
@@ -66,7 +65,57 @@
 @media (min-width: 350px) {
     .personal-name {
         font-size: 1.2rem;
+        font-weight: 700;
     }
 
+    .personal-text {
+        gap: .2rem;
+    }
 
+    .comment-information {
+        font-size: .8rem;
+        width: 100%;
+    }
+}
+
+@media (min-width: 450px) {
+    .commentaries-container {
+        align-self: center;
+        height: 260px;
+        width: 385px;
+        padding: 2.7rem 1.8rem;
+    }
+
+    .personal-name {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .personal-text {
+        font-size: .8rem;
+    }
+
+    .icon {
+        width: 50px;
+    }
+
+    .icon img,
+    .icon,
+    .personal-information,
+    .personal-text {
+        height: 50px;
+    }
+
+    .comment-information {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 920px) {
+    .commentaries {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 }

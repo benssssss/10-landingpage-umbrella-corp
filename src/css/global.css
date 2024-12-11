@@ -29,10 +29,6 @@ span {
     justify-content: center;
 }
 
-.main-container {
-    width: 320px;
-}
-
 #home,
 #servicos,
 #social {
@@ -44,14 +40,20 @@ footer,
     width: 100%;
 }
 
-@media (min-width: 350px) {
-    .main-container {
-        width: 350px;
+@media (min-width: 450px) {
+
+    #home,
+    #servicos,
+    #social {
+        padding: 2rem;
     }
 }
 
-@media (min-width: 420px) {
-    .main-container {
-        width: 420px;
+@media (min-width: 650px) {
+
+    #home,
+    #servicos,
+    #social {
+        padding: 3rem;
     }
 }

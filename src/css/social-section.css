@@ -30,3 +30,15 @@
         font-size: 1.3rem;
     }
 }
+
+@media (min-width: 450px) {
+
+    #social .text-rate .social-text-information .subtitle {
+        font-size: 2.6rem;
+        line-height: 2.6rem;
+    }
+
+    #social .text-rate .social-text-information .description {
+        font-size: 1.3rem;
+    }
+}
