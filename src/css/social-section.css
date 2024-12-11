@@ -5,11 +5,10 @@
 }
 
 .social-text-information {
-    height: 320px;
+    height: 260px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 #social .text-rate .social-text-information .subtitle {
@@ -22,7 +21,7 @@
     .social-text-information {
         height: 380px;
     }
-    
+
     #social .text-rate .social-text-information .subtitle {
         font-size: 2.3rem;
     }

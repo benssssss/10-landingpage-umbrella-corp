@@ -1,11 +1,10 @@
 .main {
     text-align: center;
-    margin-top: 47px;
 }
 
 #home {
     display: flex;
-    height: 750px;
+    height: 710px;
     align-items: center;
 }
 

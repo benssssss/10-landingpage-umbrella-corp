@@ -41,12 +41,12 @@
     }
 
     .card-description {
-        font-size: 1rem;
+        font-size: .9rem;
         width: 270px;
         margin-top: .5rem;
     }
 
     .card-icon img {
-        height: 55px;
+        height: 60px;
     }
 }

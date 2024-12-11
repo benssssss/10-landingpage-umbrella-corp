@@ -32,6 +32,9 @@
 
 .personal-text {
     height: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
 }
 
 .personal-name,
@@ -50,8 +53,8 @@
 }
 
 .comment-information {
-    font-size: .8rem;
-    width: 260px;
+    font-size: .7rem;
+    width: 235px;
 }
 
 .commentaries {
@@ -65,8 +68,5 @@
         font-size: 1.2rem;
     }
 
-    .comment-information {
-        font-size: .9rem;
-        width: 260px;
-    }
+
 }
