@@ -22,6 +22,12 @@
         height: 380px;
     }
 
+    .rate-social-section {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
     #social .text-rate .social-text-information .subtitle {
         font-size: 2.3rem;
     }
@@ -51,8 +57,25 @@
     }
 
     .social-text-information {
-        width: 500px;
+        width: 550px;
         height: 320px;
     }
+}
 
+@media (min-width: 1300px) {
+    .rate-social-section {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: start;
+        gap: 3rem;
+    }
+
+    #social .text-rate .social-text-information .subtitle {
+        font-size: 3.2rem;
+        line-height: 3.2rem;
+    }
+
+    #social .text-rate .social-text-information .description {
+        font-size: 1.4rem;
+    }
 }

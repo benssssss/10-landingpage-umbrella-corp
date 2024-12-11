@@ -119,3 +119,24 @@
         justify-content: center;
     }
 }
+
+@media (min-width: 1300px) {
+    .commentaries {
+        height: 300px;
+    }
+
+    .hunk,
+    .leon,
+    .jack {
+        height: 300px;
+        display: flex;
+    }
+
+    .hunk {
+        flex-direction: column;
+    }
+
+    .jack {
+        flex-direction: column-reverse;
+    }
+}

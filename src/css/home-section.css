@@ -138,16 +138,13 @@
 
 
 @media (min-width: 920px) {
+
     #home {
         justify-content: center;
     }
 
     #home .home-text-section .texts {
-        text-align: start;
-    }
-
-    .home-text-section {
-        width: 450px;
+        width: 600px;
     }
 
     .contact-button {
@@ -160,17 +157,16 @@
     }
 
     #home .home-text-section .texts .subtitle {
-        font-size: 2.2em;
-        line-height: 2.4rem;
-        width: 390px;
+        font-size: 2.5rem;
+        line-height: 3rem;
     }
 
     #home .home-text-section .texts .title {
-        font-size: 3.4rem;
+        font-size: 4.2rem;
+        line-height: 4rem;
     }
 
     #home .home-text-section .texts .description {
         font-size: 1.2rem;
-        font-weight: 300;
     }
 }

@@ -47,5 +47,10 @@
     .social-buttons i {
         font-size: 3.1rem;
     }
+}
 
+@media (min-width: 1300px){
+    .social-buttons {
+        justify-content: center;
+    }
 }
