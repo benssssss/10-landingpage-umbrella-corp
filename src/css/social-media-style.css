@@ -51,6 +51,12 @@
 
 @media (min-width: 1300px){
     .social-buttons {
+        align-self: flex-end;
+    }
+
+    .button-footer {
+        display: flex;
         justify-content: center;
     }
 }
+

@@ -58,3 +58,8 @@ footer,
     }
 }
 
+@media (min-width: 1300px) {
+    main {
+        width: 1300px;
+    }
+}

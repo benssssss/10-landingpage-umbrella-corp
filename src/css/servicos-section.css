@@ -29,7 +29,6 @@
 }
 
 @media (min-width: 920px) {
-
     #servicos .service-text-section {
         display: flex;
         align-items: center;
@@ -43,10 +42,32 @@
 
     #servicos .service-text-section .subtitle {
         font-size: 2rem;
-
     }
 
     #servicos .service-text-section .description {
         font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 1300px) {
+
+    #servicos .service-text-section .subtitle,
+    #servicos .service-text-section .description {
+        width: 800px;
+    }
+
+    #servicos .service-text-section .subtitle {
+        font-size: 2.7rem;
+        line-height: 3rem;
+    }
+
+    #servicos .service-text-section .description {
+        width: 600px;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    #servicos .service-text-section {
+        gap: .4rem;
     }
 }

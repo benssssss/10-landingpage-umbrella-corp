@@ -70,6 +70,10 @@
         gap: 3rem;
     }
 
+    .social-text-information {
+        height: 350px;
+    }
+
     #social .text-rate .social-text-information .subtitle {
         font-size: 3.2rem;
         line-height: 3.2rem;
