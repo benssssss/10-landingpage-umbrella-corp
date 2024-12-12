@@ -1,21 +1,24 @@
-#social {
+#social-section {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+    margin-top: 2rem;
 }
 
 .social-text-information {
-    height: 260px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 1.5rem;
 }
 
-#social .text-rate .social-text-information .subtitle {
+#social-section .text-rate .social-text-information .subtitle {
     font-size: 1.8rem;
     line-height: 2rem;
     font-weight: 600;
 }
+
+/* ---------------- */
 
 @media (min-width: 350px) {
     .social-text-information {
@@ -28,23 +31,23 @@
         gap: 3rem;
     }
 
-    #social .text-rate .social-text-information .subtitle {
+    #social-section .text-rate .social-text-information .subtitle {
         font-size: 2.3rem;
     }
 
-    #social .text-rate .social-text-information .description {
+    #social-section .text-rate .social-text-information .description {
         font-size: 1.3rem;
     }
 }
 
 @media (min-width: 450px) {
 
-    #social .text-rate .social-text-information .subtitle {
+    #social-section .text-rate .social-text-information .subtitle {
         font-size: 2.6rem;
         line-height: 2.6rem;
     }
 
-    #social .text-rate .social-text-information .description {
+    #social-section .text-rate .social-text-information .description {
         font-size: 1.3rem;
     }
 }
@@ -74,12 +77,12 @@
         height: 350px;
     }
 
-    #social .text-rate .social-text-information .subtitle {
+    #social-section .text-rate .social-text-information .subtitle {
         font-size: 3.2rem;
         line-height: 3.2rem;
     }
 
-    #social .text-rate .social-text-information .description {
+    #social-section .text-rate .social-text-information .description {
         font-size: 1.4rem;
     }
 }

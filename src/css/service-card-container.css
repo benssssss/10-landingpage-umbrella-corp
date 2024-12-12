@@ -1,5 +1,5 @@
 .service-card-section {
-    margin-top: 4rem;
+    margin-top: 3rem;
     flex-direction: column;
     gap: 1.5rem;
 }
@@ -34,6 +34,8 @@
     display: flex;
     justify-content: end;
 }
+
+/* ------------------------ */
 
 @media (min-width: 350px) {
     .card-container .card-title {

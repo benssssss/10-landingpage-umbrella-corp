@@ -1,44 +1,46 @@
+.rating-commentary-section {
+    gap: 1.4rem;
+}
+
 .commentaries-container {
     background-color: var(--dark-color);
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    padding: 1.4rem;
     gap: .6rem;
+    padding: 1.4rem;
+    border-radius: 1rem;
 }
 
-.icon {
+.avatar,
+.avatar img,
+.personal-text {
+    height: 40px;
+}
+
+.avatar {
     align-self: center;
-    height: 40px;
     width: 40px;
-}
-
-.icon img {
-    height: 40px;
-}
-
-.personal-information {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    gap: 1rem;
-    height: 40px;
 }
 
 .personal-text,
 .comment-information {
-    text-align: start;
+    text-align: left;
 }
 
-.personal-text {
-    height: 40px;
+.personal-text,
+.commentaries-container,
+.rating-commentary-section {
     display: flex;
     flex-direction: column;
+}
+
+.personal-information {
+    display: flex;
+    gap: 1rem;
 }
 
 .personal-name,
 .alias {
     height: 50%;
+    font-weight: 600;
 }
 
 .personal-name {
@@ -47,20 +49,14 @@
 
 .alias {
     font-size: .8rem;
-    font-weight: 600;
     color: var(--contrast-color);
 }
 
 .comment-information {
     font-size: .7rem;
-    width: 235px;
 }
 
-.commentaries {
-    display: flex;
-    flex-direction: column;
-    gap: 1.4rem;
-}
+/* -------------------------- */
 
 @media (min-width: 350px) {
     .personal-name {
@@ -86,7 +82,7 @@
         padding: 2.7rem 1.8rem;
     }
 
-    .personal-name {
+    .personal-text .personal-name {
         font-size: 1.5rem;
         font-weight: 600;
     }
@@ -95,12 +91,12 @@
         font-size: .8rem;
     }
 
-    .icon {
+    .avatar {
         width: 50px;
     }
 
-    .icon img,
-    .icon,
+    .avatar img,
+    .avatar,
     .personal-information,
     .personal-text {
         height: 50px;
@@ -112,7 +108,7 @@
 }
 
 @media (min-width: 920px) {
-    .commentaries {
+    .rating-commentary-section {
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
@@ -121,22 +117,22 @@
 }
 
 @media (min-width: 1300px) {
-    .commentaries {
+    .rating-commentary-section {
         height: 300px;
     }
 
-    .hunk,
-    .leon,
-    .jack {
+    .hunk-card,
+    .leon-card,
+    .jack-card {
         height: 300px;
         display: flex;
     }
 
-    .hunk {
+    .hunk-card {
         flex-direction: column;
     }
 
-    .jack {
+    .jack-card {
         flex-direction: column-reverse;
     }
 }
