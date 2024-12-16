@@ -36,18 +36,8 @@ span {
 #home-section,
 #service-section,
 #social-section {
-    padding: 1.1rem;
+    padding: 1rem;
 }
-
-@media (min-width: 350px) {
-    #home-section,
-    #service-section,
-    #social-section {
-        padding: 1rem 2rem;
-    }
-}
-
-/* ----------------- */
 
 @media (min-width: 450px) {
 
@@ -56,6 +46,11 @@ span {
     #social-section {
         padding: 2rem;
     }
+
+    #home-section {
+        padding: 0 2rem 2rem;
+    }
+
 }
 
 @media (min-width: 650px) {
@@ -67,8 +62,15 @@ span {
     }
 }
 
+/* ----------------- */
+
 @media (min-width: 1280px) {
     .main {
         width: 1280px;
     }
+
+    #home-section {
+        padding: 3rem;
+    }
+
 }

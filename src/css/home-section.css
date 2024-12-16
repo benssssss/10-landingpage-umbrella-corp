@@ -1,6 +1,6 @@
 #home-section {
     display: flex;
-    height: 80vh;
+    height: 90vh;
     align-items: center;
 }
 
@@ -96,8 +96,6 @@
     }
 }
 
-/* ----------------- */
-
 @media (min-width: 450px) {
     #home-section .home-text-section .texts .title {
         font-size: 3.1rem;
@@ -123,8 +121,8 @@
 @media (min-width: 650px) {
 
     #home-section .home-text-section .texts .title {
-        font-size: 4rem;
-        line-height: 3.7rem;
+        font-size: 4.5rem;
+        line-height: 4.1rem;
     }
 
     #home-section .home-text-section .texts .subtitle {
@@ -138,7 +136,7 @@
     }
 
     .contact-button {
-        width: 400px;
+        width: 550px;
     }
 
     .home-buttons {
@@ -146,11 +144,11 @@
     }
 }
 
+/* ----------------- */
 
 @media (min-width: 920px) {
     #home-section {
         justify-content: center;
-        height: 90vh;
     }
 
     #home-section .home-text-section .texts {

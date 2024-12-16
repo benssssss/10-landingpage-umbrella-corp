@@ -38,8 +38,6 @@
     }
 }
 
-/* ----------------- */
-
 @media (min-width: 450px) {
     .header {
         padding: 1.5rem;
@@ -49,6 +47,8 @@
         font-size: 1.5rem;
     }
 }
+
+/* ----------------- */
 
 @media (min-width: 920px) {
     .logo-image {

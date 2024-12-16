@@ -32,6 +32,10 @@
     flex-direction: column;
 }
 
+.rating-commentary-section {
+    align-items: center;
+}
+
 .personal-information {
     display: flex;
     gap: 1rem;
@@ -56,9 +60,12 @@
     font-size: .7rem;
 }
 
-/* -------------------------- */
-
 @media (min-width: 350px) {
+
+    .commentaries-container {
+        width: 320px
+    }
+
     .personal-name {
         font-size: 1.2rem;
         font-weight: 700;
@@ -70,20 +77,18 @@
 
     .comment-information {
         font-size: .8rem;
-        width: 100%;
     }
 }
 
 @media (min-width: 450px) {
     .commentaries-container {
-        align-self: center;
         height: 260px;
         width: 385px;
-        padding: 2.7rem 1.8rem;
+        padding: 2.5rem 1.8rem;
     }
 
     .personal-text .personal-name {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         font-weight: 600;
     }
 
@@ -106,6 +111,44 @@
         font-size: 1rem;
     }
 }
+
+@media (min-width: 650px) {
+    .commentaries-container {
+        width: 550px;
+        padding: 1.4rem 2.5rem;
+    }
+
+    .personal-information {
+        height: 35%;
+        align-items: center;
+    }
+
+    .avatar,
+    .avatar img,
+    .personal-text {
+        height: 60px;
+    }
+
+    .avatar {
+        align-self: center;
+        width: 60px;
+    }
+
+    .alias {
+        font-size: 1rem;
+        color: var(--contrast-color);
+    }
+
+    .comment-information {
+        font-size: 1.2rem;
+    }
+
+    .personal-text .personal-name {
+        font-size: 1.7rem;
+    }
+}
+
+/* -------------------------- */
 
 @media (min-width: 920px) {
     .rating-commentary-section {

@@ -21,8 +21,6 @@
     color: var(--contrast-color);
 }
 
-/* ----------------------- */
-
 @media (min-width: 450px) {
     .fa-book:before {
         font-size: 3.2rem;
@@ -31,12 +29,15 @@
     .social-buttons i {
         font-size: 3.7rem;
     }
+
     .social-buttons {
         gap: 1rem;
     }
 }
 
-@media (min-width: 920px){
+/* ----------------------- */
+
+@media (min-width: 920px) {
     .social-buttons {
         justify-content: end;
     }
@@ -50,7 +51,7 @@
     }
 }
 
-@media (min-width: 1300px){
+@media (min-width: 1300px) {
     .social-buttons {
         align-self: flex-end;
     }
@@ -60,4 +61,3 @@
         justify-content: center;
     }
 }
-

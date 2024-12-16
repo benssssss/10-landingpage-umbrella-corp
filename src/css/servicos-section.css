@@ -23,8 +23,6 @@
     }
 }
 
-/* ----------- */
-
 @media (min-width: 450px) {
     #service-section .service-text .subtitle {
         font-size: 1.8rem;
@@ -33,8 +31,11 @@
 
     #service-section .service-text .description {
         font-size: 1.4rem;
+        margin-top: 1.1rem;
     }
 }
+
+/* ----------- */
 
 @media (min-width: 920px) {
     #service-section .service-text {

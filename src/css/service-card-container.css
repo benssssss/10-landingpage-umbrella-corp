@@ -2,6 +2,7 @@
     margin-top: 3rem;
     flex-direction: column;
     gap: 1.5rem;
+    align-items: center;
 }
 
 .card-container {
@@ -35,9 +36,12 @@
     justify-content: end;
 }
 
-/* ------------------------ */
-
 @media (min-width: 350px) {
+
+    .card-container {
+        width: 320px;
+    }
+
     .card-container .card-title {
         font-size: 1.3rem;
     }
@@ -78,7 +82,32 @@
     .card-icon img {
         height: 60px;
     }
+
 }
+
+@media (min-width: 650px) {
+    .card-container {
+        width: 550px;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card-icon img {
+        height: 110px;
+    }
+
+    .card-text-information {
+        width: 70%;
+    }
+
+    .card-icon {
+        margin: 0;
+        align-self: center;
+    }
+}
+
+/* ------------------------ */
 
 @media (min-width: 920px) {
     .service-card-section {

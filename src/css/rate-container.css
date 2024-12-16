@@ -6,6 +6,7 @@
 .rate-containers {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -14,7 +15,7 @@
     border-radius: .8rem;
     padding: .5rem 1rem;
     gap: 1rem;
-    width: 100%;
+    width: 320px;
 }
 
 .rate-stars-containers {
@@ -32,14 +33,19 @@
     line-height: 25px;
 }
 
-@media (min-width: 350px) {
+.rate-container figure {
+    display: flex;
+}
 
+.rate-container {
+    align-items: center;
+}
+
+@media (min-width: 350px) {
     .rate-container .stars {
         height: 15px;
     }
 }
-
-/* ------------------- */
 
 @media (min-width: 450px) {
     .rate-container .stars {
@@ -47,13 +53,33 @@
     }
 
     .rate-text {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .rate-container {
         gap: 1rem;
+        padding: .8rem;
+        width: 380px;
     }
 }
+
+@media (min-width: 650px) {
+    .rate-container .stars {
+        height: 22px;
+    }
+
+    .rate-text {
+        font-size: 1.4rem;
+    }
+
+    .rate-container {
+        gap: 1.4rem;
+        padding: .8rem 2.2rem;
+        width: 550px;
+    }
+}
+
+/* ------------------- */
 
 @media (min-width: 920px) {
     .rate-container .stars {
