@@ -14,7 +14,7 @@
     border-radius: .8rem;
     padding: .5rem 1rem;
     gap: 1rem;
-    width: 280px;
+    width: 100%;
 }
 
 .rate-stars-containers {
@@ -32,17 +32,14 @@
     line-height: 25px;
 }
 
-/* ------------------- */
-
 @media (min-width: 350px) {
+
     .rate-container .stars {
         height: 15px;
     }
-
-    .rate-text {
-        font-size: .9rem;
-    }
 }
+
+/* ------------------- */
 
 @media (min-width: 450px) {
     .rate-container .stars {

@@ -28,17 +28,17 @@
     display: none;
 }
 
-/* ----------------- */
-
 @media (min-width: 350px) {
     .header {
-        padding: 1.5rem;
+        padding: 1.2rem;
     }
 
     .menu-item {
         font-size: 1.2rem;
     }
 }
+
+/* ----------------- */
 
 @media (min-width: 450px) {
     .header {

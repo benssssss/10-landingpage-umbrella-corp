@@ -21,10 +21,6 @@
 /* ---------------- */
 
 @media (min-width: 350px) {
-    .social-text-information {
-        height: 380px;
-    }
-
     .rate-social-section {
         display: flex;
         flex-direction: column;

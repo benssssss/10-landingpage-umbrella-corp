@@ -1,6 +1,6 @@
 #home-section {
     display: flex;
-    height: 90vh;
+    height: 80vh;
     align-items: center;
 }
 
@@ -79,22 +79,24 @@
     height: 120px;
 }
 
-/* ----------------- */
-
 @media (min-width: 350px) {
-    #home-section .home-text-section .texts .description {
-        font-size: 1.3rem;
-        font-weight: 400;
-    }
 
     #home-section .home-text-section .texts .title {
         font-size: 2.4rem;
     }
 
     #home-section .home-text-section .texts .subtitle {
-        font-size: 1.5em;
+        font-size: 1.7em;
+        line-height: 1.7rem;
+    }
+
+    #home-section .home-text-section .texts .description {
+        font-size: 1rem;
+        font-weight: 400;
     }
 }
+
+/* ----------------- */
 
 @media (min-width: 450px) {
     #home-section .home-text-section .texts .title {
@@ -148,6 +150,7 @@
 @media (min-width: 920px) {
     #home-section {
         justify-content: center;
+        height: 90vh;
     }
 
     #home-section .home-text-section .texts {

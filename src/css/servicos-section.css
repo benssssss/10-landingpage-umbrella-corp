@@ -13,9 +13,6 @@
     gap: 2rem;
 }
 
-
-/* ----------- */
-
 @media (min-width: 350px) {
     #service-section .service-text .subtitle {
         font-size: 1.5rem;
@@ -25,6 +22,8 @@
         font-size: 1.2rem;
     }
 }
+
+/* ----------- */
 
 @media (min-width: 450px) {
     #service-section .service-text .subtitle {
