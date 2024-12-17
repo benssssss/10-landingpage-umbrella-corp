@@ -51,7 +51,7 @@
     }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1280px) {
     .social-buttons {
         align-self: flex-end;
     }

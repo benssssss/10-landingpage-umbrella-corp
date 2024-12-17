@@ -15,7 +15,7 @@
     border-radius: .8rem;
     padding: .5rem 1rem;
     gap: 1rem;
-    width: 320px;
+    width: 280px;
 }
 
 .rate-stars-containers {
@@ -44,6 +44,10 @@
 @media (min-width: 350px) {
     .rate-container .stars {
         height: 15px;
+    }
+
+    .rate-container {
+        width: 320px;
     }
 }
 
@@ -100,9 +104,10 @@
     }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1280px) {
     .rate-container {
         padding: 1rem;
+        width: 520px;
     }
 
 }

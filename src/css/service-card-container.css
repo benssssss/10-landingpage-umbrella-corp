@@ -82,7 +82,6 @@
     .card-icon img {
         height: 60px;
     }
-
 }
 
 @media (min-width: 650px) {
@@ -107,13 +106,36 @@
     }
 }
 
-/* ------------------------ */
-
 @media (min-width: 920px) {
     .service-card-section {
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .service-card-section {
+        width: 1280px;
+    }
+
+    .card-container {
+        width: 410px;
+        height: 180px;
+        justify-content: space-around;
+    }
+
+    .card-icon img {
+        height: 80px;
+    }
+
+    .card-container .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-description {
+        font-size: .9rem;
     }
 }

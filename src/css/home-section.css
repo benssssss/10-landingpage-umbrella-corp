@@ -1,6 +1,6 @@
 #home-section {
     display: flex;
-    height: 90vh;
+    height: 86vh;
     align-items: center;
 }
 
@@ -38,7 +38,7 @@
 }
 
 #home-section .home-text-section .texts .description {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 300;
     margin-top: 2rem;
 }
@@ -98,13 +98,17 @@
 
 @media (min-width: 450px) {
     #home-section .home-text-section .texts .title {
-        font-size: 3.1rem;
+        font-size: 2.8rem;
         line-height: 3rem;
     }
 
     #home-section .home-text-section .texts .subtitle {
         font-size: 1.8em;
         line-height: 2rem;
+    }
+
+    #home-section .home-text-section .texts .description {
+        font-size: 1.2rem;
     }
 
     .contact-button {
@@ -121,7 +125,7 @@
 @media (min-width: 650px) {
 
     #home-section .home-text-section .texts .title {
-        font-size: 4.5rem;
+        font-size: 4rem;
         line-height: 4.1rem;
     }
 
@@ -136,7 +140,7 @@
     }
 
     .contact-button {
-        width: 550px;
+        width: 500px;
     }
 
     .home-buttons {
@@ -144,19 +148,19 @@
     }
 }
 
-/* ----------------- */
-
 @media (min-width: 920px) {
+
     #home-section {
         justify-content: center;
+        height: 100vh;
     }
 
     #home-section .home-text-section .texts {
-        width: 600px;
+        width: 580px;
     }
 
     .contact-button {
-        width: 175px;
+        width: 580px;
         padding: .7rem .5rem;
     }
 
@@ -179,9 +183,12 @@
     }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1280px) {
+
+
     #home-section .home-text-section {
         text-align: left;
+        width: 550px;
     }
 
     #home-section .home-text-section .texts .subtitle {
@@ -198,6 +205,10 @@
         line-height: 2rem;
     }
 
+    .contact-button {
+        width: 220px;
+    }
+
     .home-buttons {
         align-items: start;
     }
@@ -206,11 +217,25 @@
         gap: 2rem;
     }
 
+    .home-buttons {
+        height: 140px;
+    }
+
     .virus-picture {
         display: block;
     }
 
     .virus-picture img {
+        width: 550px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .virus-picture img {
         width: 600px;
+    }
+
+    #home-section .home-text-section {
+        width: 680px;
     }
 }

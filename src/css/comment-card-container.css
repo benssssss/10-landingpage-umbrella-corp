@@ -148,26 +148,20 @@
     }
 }
 
-/* -------------------------- */
+@media (min-width: 1280px) {
 
-@media (min-width: 920px) {
     .rating-commentary-section {
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
         justify-content: center;
     }
-}
-
-@media (min-width: 1300px) {
-    .rating-commentary-section {
-        height: 300px;
-    }
 
     .hunk-card,
     .leon-card,
     .jack-card {
-        height: 300px;
+        height: 280px;
+        align-items: center;
         display: flex;
     }
 
@@ -177,5 +171,42 @@
 
     .jack-card {
         flex-direction: column-reverse;
+    }
+}
+
+@media (min-width: 1440px) {
+    .commentaries-container {
+        width: 410px;
+        padding: 1.4rem 2.5rem;
+    }
+
+    .personal-text {
+        height: 50px;
+    }
+
+    .avatar,
+    .avatar img,
+    .personal-text {
+        height: 50px;
+    }
+
+    .avatar {
+        width: 50px;
+    }
+
+    .alias {
+        font-size: .8rem;
+    }
+
+    .personal-text .personal-name {
+        font-size: 1.5rem;
+    }
+
+    .comment-information {
+        font-size: .9rem;
+    }
+
+    .personal-information {
+        height: 25%;
     }
 }

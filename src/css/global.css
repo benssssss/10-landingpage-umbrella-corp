@@ -23,6 +23,7 @@ span {
 
 .main {
     text-align: center;
+    width: 280px;
 }
 
 .display-flex {
@@ -33,13 +34,24 @@ span {
     justify-content: center;
 }
 
-#home-section,
-#service-section,
-#social-section {
-    padding: 1rem;
+@media (min-width: 350px) {
+
+    .main {
+        width: 320px;
+    }
+
+    #home-section,
+    #service-section,
+    #social-section {
+        padding: .8rem;
+    }
 }
 
 @media (min-width: 450px) {
+
+    .main {
+        width: 420px;
+    }
 
     #home-section,
     #service-section,
@@ -60,17 +72,25 @@ span {
     #social-section {
         padding: 3rem;
     }
-}
 
-/* ----------------- */
+    .main {
+        width: 580px;
+    }
+}
 
 @media (min-width: 1280px) {
     .main {
-        width: 1280px;
+        width: 1260px;
     }
 
     #home-section {
         padding: 3rem;
     }
 
+}
+
+@media (min-width: 1440px) {
+    .main {
+        width: 1440px;
+    }
 }

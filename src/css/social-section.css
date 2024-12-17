@@ -1,6 +1,7 @@
 #social-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2.5rem;
     margin-top: 2rem;
 }
@@ -30,7 +31,7 @@
     }
 
     #social-section .text-rate .social-text-information .description {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -47,16 +48,14 @@
 }
 
 @media (min-width: 650px) {
+
     .hunk-card,
     .leon-card,
     .jack-card {
         display: flex;
         justify-content: center;
     }
-
 }
-
-/* ---------------- */
 
 @media (min-width: 920px) {
 
@@ -71,16 +70,19 @@
     }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1280px) {
+
     .rate-social-section {
         flex-direction: row;
-        justify-content: space-between;
         text-align: start;
-        gap: 3rem;
     }
 
     .social-text-information {
-        height: 350px;
+        gap: .5rem;
+    }
+
+    #social-section .text-rate {
+        width: 520px;
     }
 
     #social-section .text-rate .social-text-information .subtitle {
@@ -89,6 +91,35 @@
     }
 
     #social-section .text-rate .social-text-information .description {
+        font-size: 1.3rem;
+        width: 500px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    #social-section .text-rate {
+        width: 700px;
+        justify-content: start;
+    }
+
+    .rate-social-section {
+        width: 1280px;
+        justify-content: space-between;
+    }
+
+    .social-text-information {
+        width: 700px;
+        height: 350px;
+    }
+
+    #social-section .text-rate .social-text-information .subtitle {
+        font-size: 3.9rem;
+        line-height: 3.8rem;
+    }
+
+    #social-section .text-rate .social-text-information .description {
         font-size: 1.4rem;
+        width: 600px;
     }
 }
